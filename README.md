@@ -1,4 +1,3 @@
-https://github.com/maltsevvv/Digispark-ir-remote/issues/1
 # Digispark-ir-remote
 Управление ПК при помощи пульта от ТВ. Без всякого сторонего софта.
 Отлично подходит для управления HTPC. А самое главное, это цена!!!
