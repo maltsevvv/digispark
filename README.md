@@ -12,6 +12,7 @@ https://github.com/adafruit/Adafruit-Trinket-USB/archive/master.zip
 Оригинал взят от сюда 
 http://arduino.ru/forum/proekty/ik-distantsionnoe-upravlenie-kompom-cherez-digispark
 
+![prototype scheme](https://github.com/maltsevvv/Digispark-ir-remote/blob/master/Digispark%2BTSOP.png)
 # 
 Я задейстовал кнопки на пульте, неиспользуемые для управления ТВ. 
 В своем роде получилось HDMI-CEC, один пульт управляет двумя устройствами. Только цена гораздо ниже.
