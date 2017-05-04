@@ -28,4 +28,4 @@ https://github.com/maltsevvv/Digispark-ir-remote/raw/master/TrinketHidCombo.zip
 Протестировал на пультах, что попались (LG AKB74915325, SAMSUNG AA59-00741A, SAMSUNG BN59-00685A, MYSTERY MTV-2622LW
 
 # Пока есть одна пробломка. 
-После перезагрузки необходимо физически передернуть USB кабель.
+После перезагрузки необходимо физически передергивать USB кабель.
