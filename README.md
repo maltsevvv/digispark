@@ -1,4 +1,4 @@
- # Digispark-ir-remote
+Ж # Digispark-ir-remote
 Управление ПК при помощи пульта от ТВ. Без всякого сторонего софта.
 Отлично подходит для управления HTPC. А самое главное, это цена!!!
 В данном примере реализованно управление для KODI медиаплеер.
@@ -13,13 +13,13 @@ http://arduino.ru/forum/proekty/ik-distantsionnoe-upravlenie-kompom-cherez-digis
 
 ![prototype scheme](https://github.com/maltsevvv/Digispark-ir-remote/blob/master/Digispark%2BTSOP.png)
 
-5. Софт для работы с Digispark https://digistump.com/wiki/digispark/tutorials/connecting (делать все как на картинках)
-6. Скачать библиотеку Adafruit-Trinket-USB-master
+5. Софт для работы с Digispark: https://digistump.com/wiki/digispark/tutorials/connecting (делать все как на картинках)
+6. Скачать библиотеку Adafruit-Trinket-USB-master:
 https://github.com/maltsevvv/Digispark-ir-remote/raw/master/TrinketHidCombo.zip
-7. Подключить библиотеку
+7. Подключить библиотеку:
 Скетч/Подключить библиотеку/Добавить .ZIP библиотеку/выбрать загруженный файл.
 8. Открыть загруженный файлу SKETCH_KODI.ino
-В ардуино выбрать Загрузить
+В ардуино выбрать: Загрузить
 После появления надписи Plug in device now... (will timeout in 60 second)
 Подключить Digispark.
 # 
