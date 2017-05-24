@@ -7,7 +7,7 @@
 1. DIGISPARK attiny85 aliexpress.com цена 1шт. от 1.17$.
 2. TSOP4838 38kHz aliexpress.com цена 2шт. от 0.94$.
 3. Библиотека Adafruit-Trinket-USB-master
-4. Скетч для управления, взять отсуда sketch_kodi https://raw.githubusercontent.com/maltsevvv/Digispark-ir-remote/master/TrinketHidCombo/sketch_kodi.ino
+4. Скетч для управления, взять от сюда sketch_kodi https://raw.githubusercontent.com/maltsevvv/Digispark-ir-remote/master/TrinketHidCombo/sketch_kodi.ino
 Оригинал от создателя 
 http://arduino.ru/forum/proekty/ik-distantsionnoe-upravlenie-kompom-cherez-digispark
 
@@ -26,7 +26,3 @@ https://github.com/maltsevvv/Digispark-ir-remote/raw/master/TrinketHidCombo/Trin
 Я задейстовал кнопки на пульте, неиспользуемые для управления ТВ. 
 В своем роде получилось HDMI-CEC, один пульт управляет двумя устройствами. Только цена гораздо ниже.
 Протестировал на пультах, что попались (LG AKB74915325, SAMSUNG AA59-00741A, SAMSUNG BN59-00685A, MYSTERY MTV-2622LW
-
-# Пока есть одна пробломка. 
-После перезагрузки необходимо физически передергивать USB кабель.
-На Raspberry PI - этой проблеммы нет.
