@@ -25,4 +25,6 @@ https://github.com/maltsevvv/Digispark-ir-remote/raw/master/TrinketHidCombo/Trin
 # 
 Я задейстовал кнопки на пульте, неиспользуемые для управления ТВ. 
 В своем роде получилось HDMI-CEC, один пульт управляет двумя устройствами. Только цена гораздо ниже.
-Протестировал на пультах, что попались (LG AKB74915325, SAMSUNG AA59-00741A, SAMSUNG BN59-00685A, MYSTERY MTV-2622LW
+Протестировал на пультах, что попались (LG AKB74915325, SAMSUNG AA59-00741A, SAMSUNG BN59-00685A, MYSTERY MTV-2622LW)
+
+### http://kodi.wiki/view/keyboard_controls - клавиши управления для kodi
