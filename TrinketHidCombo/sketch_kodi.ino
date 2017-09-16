@@ -15,6 +15,7 @@
 #define C_MENU    0x
 #define PAGE_UP   0x
 #define PAGE_DOWN 0x
+#define SUBTITLES 0xD32C0707
 #define WATCH     0xE9160707
 #define TV        0x936C0707
 #define EPG       0x
@@ -55,6 +56,7 @@ if (keydata==VOL_UP) TrinketHidCombo.pressMultimediaKey(MMKEY_VOL_UP);
 //if (keydata==C_MENU) TrinketHidCombo.pressKey(0, KEYCODE_C); TrinketHidCombo.pressKey(0, 0);
 //if (keydata==PAGE_UP) TrinketHidCombo.pressKey(0, KEYCODE_PAGE_UP); TrinketHidCombo.pressKey(0, 0);
 //if (keydata==PAGE_DOWN) TrinketHidCombo.pressKey(0, KEYCODE_PAGE_DOWN); TrinketHidCombo.pressKey(0, 0);
+if (keydata==SUBTITLES) TrinketHidCombo.pressKey(0, KEYCODE_T); TrinketHidCombo.pressKey(0, 0);    
 if (keydata==WATCH) TrinketHidCombo.pressKey(0, KEYCODE_W); TrinketHidCombo.pressKey(0, 0);
 if (keydata==TV) TrinketHidCombo.pressKey(0, KEYCODE_H); TrinketHidCombo.pressKey(0, 0);
 //if (keydata==EPG) TrinketHidCombo.pressKey(0, KEYCODE_E); TrinketHidCombo.pressKey(0, 0);
