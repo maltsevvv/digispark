@@ -22,4 +22,4 @@
 В своем роде получилось HDMI-CEC, один пульт управляет двумя устройствами. Только цена гораздо ниже.
 Протестировал на пультах, что попались (LG AKB74915325, SAMSUNG AA59-00741A, SAMSUNG BN59-00685A, MYSTERY MTV-2622LW)
 
-#####[клавиши управления для kodi](http://kodi.wiki/view/keyboard_controls)
+[клавиши управления для kodi](http://kodi.wiki/view/keyboard_controls)
