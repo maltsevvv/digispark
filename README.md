@@ -12,7 +12,7 @@
 
 ![prototype scheme](https://github.com/maltsevvv/Digispark-ir-remote/blob/master/Digispark%2BTSOP.png)
 
-5. Софт для работы с [Digispark:] (https://digistump.com/wiki/digispark/tutorials/connecting) (делать все как на картинках)
+5. Софт для работы с [Digispark](https://digistump.com/wiki/digispark/tutorials/connecting) (делать все как на картинках)
 6. Скачать библиотеку [Adafruit-Trinket-USB-master](https://github.com/maltsevvv/Digispark-ir-remote/raw/master/TrinketHidCombo/TrinketHidCombo.zip)
 7. Подключить библиотеку:
 Скетч/Подключить библиотеку/Добавить .ZIP библиотеку/выбрать загруженный файл.
