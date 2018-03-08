@@ -42,12 +42,23 @@ if (keydata==0xF20D0707) TrinketHidCombo.pressKey(0, KEYCODE_8);            Trin
 if (keydata==0xF10E0707) TrinketHidCombo.pressKey(0, KEYCODE_9);            TrinketHidCombo.pressKey(0, 0); // (9)
 if (keydata==0xEE110707) TrinketHidCombo.pressKey(0, KEYCODE_0);            TrinketHidCombo.pressKey(0, 0); // (0)
 if (keydata==0xE51A0707) TrinketHidCombo.pressKey(0, KEYCODE_C);            TrinketHidCombo.pressKey(0, 0); // (Contextual menu)
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_SCAN_NEXT_TRACK);  // (next)
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_SCAN_PREV_TRACK);  // (prev)
 if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_PLAYPAUSE);  // (Play)
 if (keydata==0xB54A0707) TrinketHidCombo.pressMultimediaKey(MMKEY_PLAYPAUSE);  // (Pause)
 if (keydata==0xB9460707) TrinketHidCombo.pressMultimediaKey(MMKEY_STOP);       // (Stop)
 //  if (keydata==0xFD02FB04) TrinketHidCombo.pressMultimediaKey(MMKEY_VOL_UP);     // (Volume up)
 //if (keydata==0xFC03FB04) TrinketHidCombo.pressMultimediaKey(MMKEY_VOL_DOWN);   // (Volume down)
 if (keydata==0xFD020707) TrinketHidCombo.pressSystemCtrlKey(SYSCTRLKEY_POWER); // (power)
+
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_BASSBOOST); 
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_LOUDNESS);
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_KB_EXECUTE);
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_KB_MENU);
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_KB_SELECT);
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_KB_AGAIN);
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_KB_UNDO);
+if (keydata==0xB8470707) TrinketHidCombo.pressMultimediaKey(MMKEY_KB_FIND);
 
 ms_delay(200);// во избежание слишком частого повтора ввода клавиш
 complete=0;
