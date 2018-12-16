@@ -15,9 +15,10 @@
 #define MUTE         0xBB44FB04
 #define INFO         0xD728FB04
 #define CONTEXT_MENU 0xBC43FB04
+#define AUDIO        0x6E91FB04
+#define SUBTITLES    0xFE010707
 #define PAGE_UP      0xFF00FB04
 #define PAGE_DOWN    0xFE01FB04
-#define SUBTITLES    0xFE010707
 #define TV           0x12345678
 #define EPG          0xF10EFB04
 #define POWER        0xF708FB04
@@ -69,9 +70,10 @@ if (keydata==VOLUME_DOWN) TrinketHidCombo.pressKey(0, KEYCODE_F9); TrinketHidCom
 if (keydata==MUTE) TrinketHidCombo.pressKey(0, KEYCODE_F8); TrinketHidCombo.pressKey(0, 0);
 if (keydata==INFO) TrinketHidCombo.pressKey(0, KEYCODE_I); TrinketHidCombo.pressKey(0, 0);
 if (keydata==CONTEXT_MENU) TrinketHidCombo.pressKey(0, KEYCODE_C); TrinketHidCombo.pressKey(0, 0);
+if (keydata==AUDIO) TrinketHidCombo.pressKey(0x01, KEYCODE_A );TrinketHidCombo.pressKey(0, 0);
+if (keydata==SUBTITLES) TrinketHidCombo.pressKey(0, KEYCODE_L); TrinketHidCombo.pressKey(0, 0);    
 if (keydata==PAGE_UP) TrinketHidCombo.pressKey(0, KEYCODE_PAGE_UP); TrinketHidCombo.pressKey(0, 0);
 if (keydata==PAGE_DOWN) TrinketHidCombo.pressKey(0, KEYCODE_PAGE_DOWN); TrinketHidCombo.pressKey(0, 0);
-if (keydata==SUBTITLES) TrinketHidCombo.pressKey(0, KEYCODE_L); TrinketHidCombo.pressKey(0, 0);
 if (keydata==TV) TrinketHidCombo.pressKey(0, KEYCODE_H); TrinketHidCombo.pressKey(0, 0);
 if (keydata==EPG) TrinketHidCombo.pressKey(0, KEYCODE_E); TrinketHidCombo.pressKey(0, 0);
 if (keydata==POWER) TrinketHidCombo.pressKey(0, KEYCODE_S); TrinketHidCombo.pressKey(0, 0);
